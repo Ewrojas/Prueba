@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quieres ser mi San Valentín?</title>
+    <style>
+        body {
+            background: url('https://i.postimg.cc/nr5bZTmB/abe36369d57b46fc187b435936c098d0.jpg') no-repeat center center/cover;
+            color: greenyellow;
+            font-family: 'Calibri', sans-serif;
+            text-align: center;
+            height: 120vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            text-shadow: 2px 2px 10px rgba(255, 255, 0, 0.8);
+        }
+        .container {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px greenyellow;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        button {
+            font-size: 1.5em;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .yes {
+            background-color: green;
+            color: white;
+        }
+        .no {
+            background-color: red;
+            color: white;
+        }
+        .no:hover {
+            position: absolute;
+            top: calc(50% - 40px);
+            left: calc(50% - 100px);
+        }
+        .star-wars-image {
+            width: 60%;
+            max-width: 500px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        function showLove() {
+            alert('¡Mi Imperio eres tú! ❤');
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h3>¿Quieres ser mi 14?</h1>
+        <p>Luchemos juntos contra el lado oscuro ❤...</p>
+        <img class="star-wars-image" src="https://i.postimg.cc/vTmbGcNF/ilustraci-n-de-boceto-un-d-a-san-valent-n-las-guerras-estrellas-del-coraz-n-amor-207532056.webp" alt="Pareja Star Wars romántica">
+        <div class="buttons">
+            <button class="yes" onclick="showLove()">Si</button>
+            <button class="no">No</button>
+        </div>
+    </div>
+</body>
+</html>
